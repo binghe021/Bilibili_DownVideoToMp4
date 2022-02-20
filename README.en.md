@@ -1,36 +1,18 @@
 # Bilibili_DownVideoToMp4
 
-#### Description
+#### 介绍
 Bilibili手机端下载的Download文件批量转换为MP4软件
 
-#### Software Architecture
-Software architecture description
-
-#### Installation
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### Instructions
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### Contribution
-
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
+#### 软件架构
+使用VS2022基于.NET Framework 4.8框架，C#语言开发的控制台程序。
 
 
-#### Gitee Feature
+#### 安装教程
 
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+1.  Bilibili_DownVideoToMp4.exe 同级目录中必须有ffmpeg文件夹，调用ffmpeg\bin\ffmpeg.exe进行转换。
+2.  每一个发布版本中都会自带有ffmpeg文件夹。
+3.  需要修改配置文件Bilibili_DownVideoToMp4.exe.config中的文件夹路径为本机环境。
+
+#### 使用说明
+
+1.  参照 https://www.cnblogs.com/binghe021/p/12299812.html
